@@ -1,0 +1,7 @@
+{
+    "result": true,
+    "notification": {
+        "type": "success",
+        "message": "The product is removed from the basket."
+    }
+}

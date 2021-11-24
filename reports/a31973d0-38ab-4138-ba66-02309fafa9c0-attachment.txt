@@ -1,0 +1,28 @@
+[32mINFO    [0m tests.utils.api:api.py:27 CALLED BY: setup_create_cart
+Request URL: https://api.jolybell.com/carts
+Request Method: POST
+Status code: 200
+Response Headers: {'Date': 'Wed, 10 Nov 2021 13:44:20 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '105', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Cache-Control': 'max-age=0', 'Content-Encoding': 'gzip', 'Expires': 'Wed, 10 Nov 2021 13:44:20 GMT', 'Pragma': 'no-cache', 'Vary': 'Accept-Encoding, Accept-Encoding', 'X-Ratelimit-Limit': '180', 'X-Ratelimit-Remaining': '150', 'CF-Cache-Status': 'DYNAMIC', 'Expect-CT': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"', 'Report-To': '{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=DGLmvmXUUjgJ0rp%2F7NgMr0P3zhwj204gRuX8%2F4YoiA5zGJtge97TpccCKYF4erggoy%2FduI8l0o1uD7nUNouoVvEVWer8CXKWmdJjP62vWJep5ZtJp3CS2dInE5ZyPaFzmpw%2FRuztWtOKSwHf%2Fqk%3D"}],"group":"cf-nel","max_age":604800}', 'NEL': '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}', 'Strict-Transport-Security': 'max-age=15552000; includeSubDomains; preload', 'X-Content-Type-Options': 'nosniff', 'Server': 'cloudflare', 'CF-RAY': '6abfb7055e29005d-DME', 'alt-svc': 'h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400'}
+Request Headers: {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'content-type': 'application/json', 'Content-Length': '0'}
+Request Payload: None
+Response JSON: {'result': True, 'data': {'uuid': '52039040-d420-4bca-831b-5fb985ab1aca', 'expired_at': 1636595060}}
+Elapsed: 0.290662
+
+[32mINFO    [0m tests.utils.api:api.py:27 CALLED BY: setup_create_cart
+Request URL: https://api.jolybell.com/carts/52039040-d420-4bca-831b-5fb985ab1aca
+Request Method: GET
+Status code: 200
+Response Headers: {'Date': 'Wed, 10 Nov 2021 13:44:20 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '136', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Cache-Control': 'max-age=0', 'Content-Encoding': 'gzip', 'Expires': 'Wed, 10 Nov 2021 13:44:20 GMT', 'Pragma': 'no-cache', 'Vary': 'Accept-Encoding, Accept-Encoding', 'X-Ratelimit-Limit': '180', 'X-Ratelimit-Remaining': '149', 'CF-Cache-Status': 'DYNAMIC', 'Expect-CT': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"', 'Report-To': '{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=eunGHUHt7Nzlg%2BrmpBrClrW9sWUOt%2BGYtx4UMSFH3OUmxSeQezHTJkGP8jui81Yv0biBlvFOHP7kdRK6GHMXnB1Jv7LkhaZCzX1pV7%2BDbCwUy1wh56mTldI6fGC68RIIRbgFIjI8ScmMTYd54L0%3D"}],"group":"cf-nel","max_age":604800}', 'NEL': '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}', 'Strict-Transport-Security': 'max-age=15552000; includeSubDomains; preload', 'X-Content-Type-Options': 'nosniff', 'Server': 'cloudflare', 'CF-RAY': '6abfb7072ff57a7d-DME', 'alt-svc': 'h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400'}
+Request Headers: {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'content-type': 'application/json'}
+Request Payload: None
+Response JSON: {'data': {'id': '335783', 'created_at': 1636551860, 'updated_at': 1636551860, 'amount': 0, 'delivery': {'id': '1', 'name': 'ground'}, 'promocode': None, 'products': []}, 'result': True}
+Elapsed: 0.152756
+[32mINFO    [0m tests.utils.api:api.py:27 CALLED BY: test_add_not_clothes_with_size
+Request URL: https://api.jolybell.com/carts/add
+Request Method: POST
+Status code: 403
+Response Headers: {'Date': 'Wed, 10 Nov 2021 13:44:20 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '36', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Cache-Control': 'private, must-revalidate', 'Content-Encoding': 'gzip', 'Expires': '-1', 'Pragma': 'no-cache', 'Vary': 'Accept-Encoding, Accept-Encoding', 'X-Ratelimit-Limit': '180', 'X-Ratelimit-Remaining': '148', 'CF-Cache-Status': 'DYNAMIC', 'Expect-CT': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"', 'Report-To': '{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=p4H7lF4Wkzo2byKXfmd30Dc79%2Fp98SC596ynD1Op%2BcyCuNyLKoHhQSHAlXbXJ6LQZW56edCy11FoXu4LPizV3t8Dwc35eY%2FVGSRVPBgZVbhH%2BpId%2BiSFVZENSbJCdHQ11k6y3SqnBDCkwuiYmQw%3D"}],"group":"cf-nel","max_age":604800}', 'NEL': '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}', 'Strict-Transport-Security': 'max-age=15552000; includeSubDomains; preload', 'X-Content-Type-Options': 'nosniff', 'Server': 'cloudflare', 'CF-RAY': '6abfb708293475bb-DME', 'alt-svc': 'h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400'}
+Request Headers: {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'content-type': 'application/json', 'Content-Length': '96'}
+Request Payload: {'uuid': '52039040-d420-4bca-831b-5fb985ab1aca', 'product_id': '90', 'size_id': '1', 'count': 1}
+Response JSON: {'result': False}
+Elapsed: 0.140887

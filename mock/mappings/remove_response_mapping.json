@@ -1,0 +1,13 @@
+{
+	"request": {
+		"method": "DELETE",
+		"url": "/carts/remove"
+	},
+	"response": {
+		"status": 200,
+		"bodyFileName": "../__files/remove_response.json",
+		"headers": {
+			"content-type": "application/json; charset=utf-8"
+		}
+	}
+}

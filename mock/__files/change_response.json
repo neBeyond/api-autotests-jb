@@ -1,0 +1,7 @@
+{
+    "result": true,
+    "notification": {
+        "type": "success",
+        "message": "The item in the shopping cart has been changed."
+    }
+}

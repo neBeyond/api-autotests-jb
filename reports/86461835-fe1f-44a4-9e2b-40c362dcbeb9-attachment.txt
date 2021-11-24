@@ -1,0 +1,9 @@
+[32mINFO    [0m tests.utils.api:api.py:27 CALLED BY: test_orders_invalid_uuid
+Request URL: https://api.jolybell.com/orders
+Request Method: POST
+Status code: 422
+Response Headers: {'Date': 'Wed, 10 Nov 2021 13:44:45 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '95', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'Cache-Control': 'private, must-revalidate', 'Expires': '-1', 'Pragma': 'no-cache', 'X-Ratelimit-Limit': '180', 'X-Ratelimit-Remaining': '15', 'CF-Cache-Status': 'DYNAMIC', 'Expect-CT': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"', 'Report-To': '{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=wxT4lmL36vp0DY9opXoSO4%2BGJS6Rms2OWOIyXDmIXYPhnVB%2BGx09NqaGAwpQSpAxxpix9gkogw3WKHvSAoZlNSr%2FpZhftqZnrXLRhVa6LsWk43vZWfYkeZnIjF%2F44GJfE4bkAy7hsxF%2BDw5dDPE%3D"}],"group":"cf-nel","max_age":604800}', 'NEL': '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}', 'Strict-Transport-Security': 'max-age=15552000; includeSubDomains; preload', 'X-Content-Type-Options': 'nosniff', 'Server': 'cloudflare', 'CF-RAY': '6abfb7a12dfe1672-DME', 'alt-svc': 'h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400'}
+Request Headers: {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'content-type': 'application/json', 'Content-Length': '53'}
+Request Payload: None
+Response JSON: {'result': False, 'notification': {'type': 'error', 'message': 'The selected cart uuid is invalid.'}}
+Elapsed: 0.12678

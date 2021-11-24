@@ -1,0 +1,13 @@
+{
+	"request": {
+		"method": "POST",
+		"url": "/carts"
+	},
+	"response": {
+		"status": 200,
+		"bodyFileName": "../__files/carts_response.json",
+		"headers": {
+			"content-type": "application/json; charset=utf-8"
+		}
+	}
+}

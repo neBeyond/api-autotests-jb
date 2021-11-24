@@ -1,0 +1,13 @@
+{
+	"request": {
+		"method": "POST",
+		"url": "/carts/add"
+	},
+	"response": {
+		"status": 200,
+		"bodyFileName": "../__files/add_response.json",
+		"headers": {
+			"content-type": "application/json; charset=utf-8"
+		}
+	}
+}

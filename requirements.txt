@@ -1,0 +1,5 @@
+allure-pytest==2.9.45
+allure-python-commons==2.9.45
+pytest==6.2.5
+requests==2.26.0
+wiremock==2.3.1
