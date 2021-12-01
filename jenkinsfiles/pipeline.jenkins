@@ -1,0 +1,20 @@
+#!groovy
+
+properties([disableConcurrentBuilds()])
+
+pipeline {
+    agent {
+        label 'master'
+    }
+    options {
+        buildDiscarder(logRotator(numToKeepStr: '10', artifactNumToKeep: '10'))
+        timestamps()
+    }
+    stages {
+        stage("First_step") {
+            steps {
+                sh 'cd ..'
+            }
+        }
+    }
+}
