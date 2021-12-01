@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage("First_step") {
             steps {
-                sh 'cd ..'
+                bat 'cd ..'
             }
         }
     }
